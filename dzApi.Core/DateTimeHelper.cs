@@ -78,7 +78,7 @@ namespace dzApi.Core
         /// <param name="date"></param>
         /// <returns></returns>
         public static bool IsHoliday(this DateTime date)
-        {
+        { 
             try
             {
                 dzApi.Entity.holidaysEntities db = new Entity.holidaysEntities();
